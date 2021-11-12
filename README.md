@@ -7,7 +7,6 @@ To execute the code, upload the Input_File_Parser.ipynb file to the Colab or Jup
 
 To execute the code in different environment like VS Code, need to use input_file_parser.py and provide the file path instead of only file name.
 #-----------------------------------------------------------------------------------------------------------------------------------------------
-12th Nov 2021
 
 1) The updated changes contains input_file_parser.py file. 
    To execute the code use command prompt. It will ask required files. Provide full path of the files.
