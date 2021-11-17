@@ -29,9 +29,9 @@ class position(Enum):
   EXPECTED_LENGTH = 5	
   ERROR_CODE = 6
 
-input_file='D:\input_parser\Input_Parser_Unittest\input_file.txt'
-standard_def_file = 'D:\input_parser\Input_Parser_Unittest\standard_definition.json'
-error_code_file = 'D:\input_parser\Input_Parser_Unittest\error_codes.json'
+#input_file='E:\input_parser\input_file.txt'
+#standard_def_file = 'E:\input_parser\standard_definition.json'
+#error_code_file = 'E:\input_parser\error_codes.json'
 
 if os.path.exists('summary.txt'):
     os.remove('summary.txt')
@@ -223,7 +223,7 @@ if __name__ == '__main__':
       input_file = input("Enter input file name: ")
       standard_def_file = input("Enter standard definition file name: ")
       error_code_file = input("Enter error code file name: ")
-
+	  
       input_lines = getInputData(input_file)
       if input_lines is None or input_lines == '':
           log_error('main function: '+'Error: While reading input file! \n')
